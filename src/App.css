@@ -1,0 +1,54 @@
+:root {
+  --bg-primary: #0B0B15;
+  --bg-secondary: #1B1230;
+
+  --primary-purple: #9D00FF;
+  --neon-pink: #a36a97;
+
+  --text-primary: #F3E8FF;
+  --text-secondary: #D6C7F5;
+
+  --card-bg: rgba(27, 18, 48, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    "Poppins",
+    "Noto Sans Telugu",
+    "Noto Sans Devanagari",
+    "Noto Sans Tamil",
+    sans-serif;
+}
+
+body {
+  background: #0B0B15;
+  color: #F3E8FF;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(157, 0, 255, 0.18),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(255, 46, 209, 0.12),
+      transparent 35%
+    );
+
+  z-index: -2;
+}
