@@ -1,4 +1,4 @@
-import "../pagescss/About.css";
+import "../Pagescss/About.css";
 import { useEffect, useRef, useState } from "react";
 function About() {
   const aboutRef = useRef(null);

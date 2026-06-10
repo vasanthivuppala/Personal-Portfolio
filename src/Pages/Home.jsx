@@ -1,5 +1,5 @@
 import {useState,useEffect} from "react";
-import "../pagescss/Home.css";
+import "../Pagescss/Home.css";
 import image from "../pictures/image.png";
 import { Link } from "react-router-dom";
 import Projects from "./Projects";

@@ -1,4 +1,4 @@
-import "../pagescss/Dsa.css";
+import "../Pagescss/Dsa.css";
 import { useState,useEffect } from "react";
 import DsaChart from "../components/DsaChart";
 function Dsa() {
