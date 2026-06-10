@@ -18,33 +18,33 @@ function Navbar() {
 </button>
         <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
           <li>
-            <Link to="/" className="nav-link">
+            <a href="#home" className="nav-link">
               Home
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="/about" className="nav-link">
+            <a href="#about" className="nav-link">
               About
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="/dsa" className="nav-link">
+            <a href="#dsa" className="nav-link">
               DSA
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="/projects" className="nav-link">
+            <a href="#projects" className="nav-link">
               Projects
-            </Link>
+            </a>
           </li>
 
           <li>
-            <Link to="/contact" className="nav-link">
+            <a href="#contact" className="nav-link">
               Contact
-            </Link>
+            </a>
           </li>
 
           <li>
