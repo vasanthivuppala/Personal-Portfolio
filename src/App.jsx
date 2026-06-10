@@ -8,7 +8,7 @@ import Dsa from "./Pages/Dsa";
 import Footer from "./Components/Footer";
 
 import Navbar from "./Components/Navbar";
-import Particles from "./components/Particles";
+import Particles from "./Components/Particles";
 
 function App() {
   return (
