@@ -1,6 +1,6 @@
 import "../Pagescss/Dsa.css";
 import { useState,useEffect } from "react";
-import DsaChart from "../components/DsaChart";
+import DsaChart from "../Components/DsaChart";
 function Dsa() {
   const [selectedPlatform, setSelectedPlatform] =useState("LeetCode");
   const [stats, setStats] = useState(null);
