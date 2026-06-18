@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import "../Pagescss/Home.css";
-import image from "../pictures/image.png";
+import image from "../Pictures/image.png";
 import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
